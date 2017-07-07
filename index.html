@@ -1,93 +1,187 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-  <title>Alex Fuser</title>
-  <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
-  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
-  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
-  <link rel="stylesheet" href="css/style.css">
-</head>
-<body>
+  <head>
+    <title>Alex Fuser</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
 
-<nav class="navbar navbar-inverse">
-  <div class="container-fluid">
-    <div class="navbar-header">
-      <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
-        <span class="icon-bar"></span>
-        <span class="icon-bar"></span>
-        <span class="icon-bar"></span>                        
-      </button>
-      <a class="navbar-brand" href="#">Portfolio</a>
-    </div>
-    <div class="collapse navbar-collapse" id="myNavbar">
-      <ul class="nav navbar-nav">
-        <li class="active"><a href="#">Home</a></li>
-        <li><a href="#">About</a></li>
-        <li><a href="#">Gallery</a></li>
-        <li><a href="#">Contact</a></li>
-      </ul>
-      <ul class="nav navbar-nav navbar-right">
-        <li><a href="#"><span class="glyphicon glyphicon-log-in"></span> Login</a></li>
-      </ul>
-    </div>
-  </div>
-</nav>
+    <script src="https://use.fontawesome.com/b436e7824e.js"></script>
+    <script src="js/script.js"></script>
 
-<div class="jumbotron">
-  <div class="container text-center">
-    <h1>My Portfolio</h1>      
-    <p>Some text that represents "Me"...</p>
-  </div>
-</div>
-  
-<div class="container-fluid bg-3 text-center">    
-  <h3>Some of my Work</h3><br>
-  <div class="row">
-    <div class="col-sm-3">
-      <p>Some text..</p>
-      <img src="https://placehold.it/150x80?text=IMAGE" class="img-responsive" style="width:100%" alt="Image">
-    </div>
-    <div class="col-sm-3"> 
-      <p>Some text..</p>
-      <img src="https://placehold.it/150x80?text=IMAGE" class="img-responsive" style="width:100%" alt="Image">
-    </div>
-    <div class="col-sm-3"> 
-      <p>Some text..</p>
-      <img src="https://placehold.it/150x80?text=IMAGE" class="img-responsive" style="width:100%" alt="Image">
-    </div>
-    <div class="col-sm-3">
-      <p>Some text..</p>
-      <img src="https://placehold.it/150x80?text=IMAGE" class="img-responsive" style="width:100%" alt="Image">
-    </div>
-  </div>
-</div><br>
+    <link rel="stylesheet" href="css/style.css">
+  </head>
+  <body>
 
-<div class="container-fluid bg-3 text-center">    
-  <div class="row">
-    <div class="col-sm-3">
-      <p>Some text..</p>
-      <img src="https://placehold.it/150x80?text=IMAGE" class="img-responsive" style="width:100%" alt="Image">
-    </div>
-    <div class="col-sm-3"> 
-      <p>Some text..</p>
-      <img src="https://placehold.it/150x80?text=IMAGE" class="img-responsive" style="width:100%" alt="Image">
-    </div>
-    <div class="col-sm-3"> 
-      <p>Some text..</p>
-      <img src="https://placehold.it/150x80?text=IMAGE" class="img-responsive" style="width:100%" alt="Image">
-    </div>
-    <div class="col-sm-3">
-      <p>Some text..</p>
-      <img src="https://placehold.it/150x80?text=IMAGE" class="img-responsive" style="width:100%" alt="Image">
-    </div>
-  </div>
-</div><br><br>
+      <nav class="navbar navbar-inverse">
+        <div class="container-fluid">
+          <div class="navbar-header">
+            <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+              <span class="icon-bar"></span>
+              <span class="icon-bar"></span>
+              <span class="icon-bar"></span>                        
+            </button>
+          </div>
+          <div class="collapse navbar-collapse" id="myNavbar">
+            <ul class="nav navbar-nav navbar-right">
+              <li class="active"><a href="#">Inicio</a></li>
+              <li><a href="#">Sobre mi</a></li>
+              <li><a href="#proyectos">Proyectos</a></li>
+              <li><a href="#contacto">Contacto</a></li>
+            </ul>
+          </div>
+        </div>
+      </nav>
 
-<footer class="container-fluid text-center">
-  <p>Footer Text</p>
-</footer>
+      <div class="jumbotron header">
+        <div class="container text-center">
+          <div class="logo-nombre">
+            <svg viewBox="0 0 1200 300">
 
-</body>
+                  <!-- Symbol -->
+                  <symbol id="s-text">
+                    <text text-anchor="middle"
+                          x="50%" y="50%" dy=".35em">
+                      Alex Fuser
+                    </text>
+                  </symbol>  
+
+                  <!-- Duplicate symbols -->
+                  <use xlink:href="#s-text" class="text"></use>
+                  <use xlink:href="#s-text" class="text"></use>
+                  <use xlink:href="#s-text" class="text"></use>
+                  <use xlink:href="#s-text" class="text"></use>
+                  <use xlink:href="#s-text" class="text"></use>
+
+            </svg>
+          </div>
+        </div>
+      </div>
+      <div class="wrapper">
+          <div class="roles">
+              <div>
+                  I am a web developer.
+              </div>
+            
+              <div>
+                  I am a game creator.
+              </div>
+            
+              <div>
+                  I am a student.
+              </div>
+            
+              <div>
+                  I am an aspiring individual.
+              </div>
+          </div>
+      </div>
+
+      <div id="proyectos" class="case-study-gallery text-center">
+                <div class="project-title">
+                  <h1 class="title">Proyectos</h1>
+                </div>
+                  
+                <div class="case-study study1">
+                  <figure>
+                    <img class="case-study__img" src="" alt="" />
+                  </figure>
+                  <div class="case-study__overlay">
+                    <h2 class="case-study__title">Proyecto X</h2>
+                    <a class="case-study__link" href="#">Ver</a>
+                  </div>
+                </div>
+                  
+                <div class="case-study study2">
+                  <figure>
+                    <img class="case-study__img" src="" alt="" />
+                  </figure>
+                  <div class="case-study__overlay">
+                    <h2 class="case-study__title">Proyecto X</h2>
+                    <a class="case-study__link" href="#">Ver</a>
+                  </div>
+                </div>
+                  
+                <div class="case-study study3">
+                  <figure>
+                    <img class="case-study__img" src="" alt="" />
+                  </figure>
+                  <div class="case-study__overlay">
+                    <h2 class="case-study__title">Proyecto X</h2>
+                    <a class="case-study__link" href="#">Ver</a>
+                  </div>
+                </div>
+                  
+                <div class="case-study study4">
+                  <figure>
+                    <img class="case-study__img" src="" alt="" />
+                  </figure>
+                  <div class="case-study__overlay">
+                    <h2 class="case-study__title">Proyecto X</h2>
+                    <a class="case-study__link" href="#">Ver</a>
+                  </div>
+                </div>
+                  
+                <div class="case-study study5">
+                  <figure>
+                    <img class="case-study__img" src="" alt="" />
+                  </figure>
+                  <div class="case-study__overlay">
+                    <h2 class="case-study__title">Proyecto X</h2>
+                    <a class="case-study__link" href="#">Ver</a>
+                  </div>
+                </div>
+                  
+                <div class="case-study study6">
+                  <figure>
+                    <img class="case-study__img" src="" alt="" />
+                  </figure>
+                  <div class="case-study__overlay">
+                    <h2 class="case-study__title">Proyecto X</h2>
+                    <a class="case-study__link" href="#">Ver</a>
+                  </div>
+                </div>
+      </div>
+<!-- contact -->
+      <section id="contacto" class="contact">
+            <div class="content">
+              <ul class="socials">
+                <li class="social">
+                  <a href="#" target="_blank" class="email">
+                    <i class="fa fa-envelope" aria-hidden="true"></i>
+                  </a>
+                </li>
+                <li class="social">
+                  <a href="#" target="_blank" class="twitter">
+                    <i class="fa fa-twitter" aria-hidden="true"></i>
+                  </a>
+                </li>
+                <li class="social">
+                  <a href="#" target="_blank" class="freecodecamp">
+                    <i class="fa fa-free-code-camp" aria-hidden="true"></i>
+                  </a>
+                </li>
+                <li class="social">
+                  <a href="#" target="_blank" class="codepen">
+                    <i class="fa fa-codepen" aria-hidden="true"></i>
+                  </a>
+                </li>
+                <li class="social">
+                  <a href="#" target="_blank" class="github">
+                    <i class="fa fa-github" aria-hidden="true"></i>
+                  </a>
+                </li>
+              </ul>
+              <div class="clear"></div>
+            </div>
+      </section>
+<!-- end contacto -->
+<!-- footer-->
+      <section class="footer">
+            <p>Hecho con<i class="fa fa-heart" aria-hidden="true"></i> por Alex Fuser</p>
+      </section>
+<!-- end footer -->
+  </body>
 </html>
