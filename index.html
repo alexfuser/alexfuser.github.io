@@ -15,9 +15,9 @@
   </head>
   <body>
 
-      <nav class="navbar navbar-inverse">
+      <nav class="navbar navbar-inverse main_nav">
         <div class="container-fluid">
-          <div class="navbar-header">
+          <div class="navbar-header mobile-toggle">
             <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
               <span class="icon-bar"></span>
               <span class="icon-bar"></span>
@@ -26,16 +26,16 @@
           </div>
           <div class="collapse navbar-collapse" id="myNavbar">
             <ul class="nav navbar-nav navbar-right">
-              <li class="active"><a href="#">Inicio</a></li>
-              <li><a href="#">Sobre mi</a></li>
-              <li><a href="#proyectos">Proyectos</a></li>
-              <li><a href="#contacto">Contacto</a></li>
+              <li class="active"><a href="#inicio">Inicio</a></li>
+              <li><a href="#sobre" class="smoothscroll">Sobre mi</a></li>
+              <li><a href="#proyectos" class="smoothscroll">Proyectos</a></li>
+              <li><a href="#contacto" class="smoothscroll">Contacto</a></li>
             </ul>
           </div>
         </div>
       </nav>
 
-      <div class="jumbotron header">
+      <div id="inicio" class="jumbotron header">
         <div class="container text-center">
           <div class="logo-nombre">
             <svg viewBox="0 0 1200 300">
@@ -59,22 +59,22 @@
           </div>
         </div>
       </div>
-      <div class="wrapper">
+      <div id="sobre" class="wrapper">
           <div class="roles">
               <div>
-                  I am a web developer.
+                  Desarrollador web.
               </div>
             
               <div>
-                  I am a game creator.
+                  Gamer.
               </div>
             
               <div>
-                  I am a student.
+                  Cinéfilo.
               </div>
             
               <div>
-                  I am an aspiring individual.
+                  Mago.
               </div>
           </div>
       </div>
@@ -180,7 +180,7 @@
 <!-- end contacto -->
 <!-- footer-->
       <section class="footer">
-            <p>Hecho con<i class="fa fa-heart" aria-hidden="true"></i> por Alex Fuser</p>
+            <p>Hecho con <i class="fa fa-heart" aria-hidden="true"></i> por Alex Fuser</p>
       </section>
 <!-- end footer -->
   </body>
