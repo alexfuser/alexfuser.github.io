@@ -540,7 +540,7 @@ opacity: 0;
 .image:hover {
 	opacity: 0.6;
 	transition: .3s;
-	background-image: url(../images/hoverbg.png);
+	/*background-image: url(../images/hoverbg.png);*/
 	background-repeat: no-repeat;
 	background-position: center;
 }
